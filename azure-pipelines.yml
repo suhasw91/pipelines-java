@@ -6,9 +6,6 @@
 trigger:
 - main
 
-pool:
-  vmImage: Azure Pipelines
-
 steps:
 - task: Maven@3
   inputs:
